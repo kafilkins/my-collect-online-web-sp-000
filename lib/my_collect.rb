@@ -6,6 +6,7 @@ def my_collect(array)
   while i < collections.length
     collections << yeild(collections[i])
     languages << yeild(lang.upcase)
+    first_names << yeild(name.split(" ").first)
     i += 1
   end
   collections

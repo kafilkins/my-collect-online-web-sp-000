@@ -5,5 +5,8 @@ def my_collect(array)
     collections << yeild(collections[i])
     i += 1
   end
+  my_collect(languages) do |lang|
+    lang.upcase
+  end
   collections
 end

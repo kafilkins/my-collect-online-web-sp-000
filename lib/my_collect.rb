@@ -5,5 +5,4 @@ def my_collect(array)
     languages << yeild(array[i])
     i += 1
   end
-  languages
 end

@@ -1,8 +1,9 @@
 def my_collect(array)
   i = 0
-  languages = []
+  collections = []
   while i < array.length
-    languages << yeild(array[i])
+    collections << yeild(array[i])
     i += 1
   end
+  
 end
